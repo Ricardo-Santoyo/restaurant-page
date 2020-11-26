@@ -1,0 +1,32 @@
+function menu() {
+  let content = document.querySelector("#content");
+  let menuContainer = document.createElement("div");
+  menuContainer.id = "menu-container";
+  let menu1 = document.createElement("div");
+  menu1.className = "menu";
+  let food1 = document.createElement("img");
+  food1.src = "menu1.jpg";
+  menu1.appendChild(food1);
+  menuContainer.appendChild(menu1);
+  let menu2 = document.createElement("div");
+  menu2.className = "menu";
+  let food2 = document.createElement("img");
+  food2.src = "menu2.jpg";
+  menu2.appendChild(food2);
+  menuContainer.appendChild(menu2);
+  let menu3 = document.createElement("div");
+  menu3.className = "menu";
+  let food3 = document.createElement("img");
+  food3.src = "menu3.jpg";
+  menu3.appendChild(food3);
+  menuContainer.appendChild(menu3);
+  let menu4 = document.createElement("div");
+  menu4.className = "menu";
+  let food4 = document.createElement("img");
+  food4.src = "menu4.jpg";
+  menu4.appendChild(food4);
+  menuContainer.appendChild(menu4);
+  content.appendChild(menuContainer);
+};
+
+export default menu;
